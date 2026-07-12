@@ -8,7 +8,11 @@ contract C2NToken is ERC20 {
 
     uint8 private _decimals;
 
-    constructor (string memory name_, string memory symbol_, uint256 totalSupply_, uint8 decimals_) ERC20( name_, symbol_) {
+    constructor (
+        string memory name_, 
+        string memory symbol_, 
+        uint256 totalSupply_, 
+        uint8 decimals_) ERC20( name_, symbol_) {
         _decimals=decimals_;
         _mint(_msgSender(), totalSupply_);
     }
