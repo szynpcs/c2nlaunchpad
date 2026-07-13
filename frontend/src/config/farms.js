@@ -1,4 +1,4 @@
-import contractAddresses from '../../../c2n-contracts/deployments/contract-addresses.json';
+import contractAddresses from '../../../contracts/deployments/contract-addresses.json';
 /* eslint-disable import/no-anonymous-default-export */
 export default [
   // {

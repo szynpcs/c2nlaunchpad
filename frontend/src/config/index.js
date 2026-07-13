@@ -1,4 +1,4 @@
-import contractAddresses from '../../../c2n-contracts/deployments/contract-addresses.json';
+import contractAddresses from '../../../contracts/deployments/contract-addresses.json';
 
 // staking address
 export const stakingPoolAddresses = [
