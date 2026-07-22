@@ -158,7 +158,7 @@ func main() {
 }
 
 // printRow 打印表格的一行
-func printRow(row []string, widths []int) {
+func printRow(row []string,  widths []int) {
 	for i, cell := range row {
 		// 如果内容超过最大宽度，截断并添加省略号
 		display := cell

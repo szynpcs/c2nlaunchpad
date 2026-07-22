@@ -19,6 +19,8 @@ func main() {
 	// 加载 .env 文件中的环境变量
 	godotenv.Load()
 	// 加载配置文件
+
+	// 加载配置文件
 	config.LoadConfig()
 
 	// 初始化日志记录器
